@@ -1,6 +1,16 @@
-﻿Console.WriteLine("Введите длину: ");
-int n = Convert.ToInt32(Console.ReadLine());
-    
-for (int i = 1; i <= n; i++)
-    if (i % 2 == 0)
-        Console.WriteLine(i);
+﻿Console.WriteLine("введите число: ");
+           int n = Convert.ToInt32(Console.ReadLine()); 
+ 
+            if (n % 2 == 0)
+            {
+                Console.WriteLine("четное число");
+           
+            }
+            else
+            {
+                Console.WriteLine("нечетное");
+            }
+ 
+ 
+ 
+            Console.WriteLine();
