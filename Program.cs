@@ -1,16 +1,4 @@
-﻿Console.WriteLine("введите число: ");
-           int n = Convert.ToInt32(Console.ReadLine()); 
- 
-            if (n % 2 == 0)
-            {
-                Console.WriteLine("четное число");
-           
-            }
-            else
-            {
-                Console.WriteLine("нечетное");
-            }
- 
- 
- 
-            Console.WriteLine();
+﻿int [] ar = {67,34,3};
+Array.Sort(ar);
+int maxValue = ar[ar.Length-1];
+Console.WriteLine (maxValue);
